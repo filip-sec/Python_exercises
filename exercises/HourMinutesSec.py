@@ -28,6 +28,7 @@ def getHoursMinutesSeconds(totalSeconds):
 
     return ' '.join(hms)
 
+print("All test cases passed successfully!")
 assert getHoursMinutesSeconds(30) == '30s'
 assert getHoursMinutesSeconds(60) == '1m'
 assert getHoursMinutesSeconds(90) == '1m 30s'
